@@ -6,3 +6,6 @@
 >composer require laravel/sanctum
 >php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 >php artisan migrate
+
+#adding schema for tables use this below ling
+https://laravel.com/docs/4.2/schema#adding-columns
