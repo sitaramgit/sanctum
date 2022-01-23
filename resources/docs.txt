@@ -1,1 +1,7 @@
-# composer create-project laravel/laravel sanctum
+> composer create-project laravel/laravel sanctum
+
+#Create database and the details in .env file and add in database.php
+
+>composer require laravel/sanctum
+>php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+>php artisan migrate
