@@ -1,3 +1,4 @@
+#use this https://laravel.com/docs/8.x/sanctum documentation.
 > composer create-project laravel/laravel sanctum
 
 #Create database and the details in .env file and add in database.php
